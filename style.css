@@ -1,3 +1,9 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
 body {
 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -19,5 +25,12 @@ label {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
-    border-color: #e04122;
+    border:40px solid #e04122;
 }
+
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: 0%;
+}
+
