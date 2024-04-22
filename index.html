@@ -10,7 +10,7 @@
 <body>
     <header>
         <h1>Cadastro pessoal</h1>
-        <img src="/img/logo.jpg" 
+        <img src="/img/logo.jpeg" 
         alt="imagem de um icone de cadastro">
     </header>
     <div>
@@ -38,9 +38,77 @@
             </fieldset>
             <fieldset>
                 <legend>Endereço</legend>
+                <div>
+                    <label for="rua">Rua:</label>
+                    <input type="text" nome="rua" required>
+                    <label for="numCasa">Número</label>
+                    <input type="text" nome="numCasa" required>
+                </div>
+                <div>
+                    <label for="bairro">Bairro</label>
+                    <input type="text" name="bairro" required>
+                </div>
+                <div>
+                    <label for="estado">Estado</label>
+                    <select id="UF" name="UF">
+                        <option value="">Selecione</option>
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espirito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" nome="cidade" required>
+                </div>
+                <div>
+                    <label for="cep">CEP:</label>
+                    <input type="number" nome='cep' required>
+                </div>
             </fieldset>
             <fieldset>
                 <legend>Login</legend>
+                <div>
+                    <label for="imgPerfil">Imagem de perfil:</label>
+                    <input type="file" name="imgPerfil" >
+
+                </div>
+                <div>
+                    <label for="loginUsu">Login de usuário:</label>
+                    <input type="text" nome="loginUsu" required>
+                </div>
+                <div>
+                    <label for="senha">Senha:</label>
+                    <input type="text" nome="senha" required>
+                </div>
+                <div>
+                    <label for="confirmSenha">Comfirmar a senha:</label>
+                    <input type="text" nome="confirmSenha" required>
+                </div>
             </fieldset>
         </form>
     </div>

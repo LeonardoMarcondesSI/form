@@ -6,7 +6,18 @@ body {
 }
 
 fieldset {
-
     background-color: #E0DBE7 ;
+}
 
+label {
+    margin-right: 10px;
+    width: 80px;
+    display: inline-block;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border-color: #e04122;
 }
